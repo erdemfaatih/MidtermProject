@@ -1,0 +1,213 @@
+  /* Burası header kısmı için kodlarım */
+
+  body {
+      margin-left: 13%;
+      margin-right: 13%;
+      background-color: rgb(221, 218, 218);
+      width: auto;
+  }
+
+  #flex-container-header {
+      display: flex;
+      justify-content: start;
+      height: 100px;
+      border: 2px solid black;
+      padding-left: 30px;
+      align-items: center;
+  }
+
+  header span {
+      text-decoration: underline;
+      color: blue;
+      font-size: 17px;
+  }
+
+  header img {
+      width: 80px;
+      height: 80px;
+      text-align: center;
+  }
+
+  header div {
+      margin-left: 10px;
+      margin-top: 30px;
+  }
+
+  header em-container {
+      margin-left: auto;
+  }
+
+  header em {
+      margin-top: 40px;
+      font-size: 20px;
+      padding-right: 30px;
+  }
+
+  /* Burası footer kısmı için kodlarım */
+
+
+  footer {
+      background-color: #f2f2f2;
+      color: #333;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border: 2px solid black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      height: auto;
+  }
+
+  .body-footer {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-around;
+  }
+
+  .footer-child {
+      background-color: #ccc;
+      border: 1px solid black;
+      border-radius: 9px;
+      padding: 10px;
+      text-align: center;
+      width: 190px;
+  }
+
+  /* Burası Gövde kısmı için kodlarım */
+
+  #flex-container-body {
+      display: flex;
+      border: 2px solid black;
+      height: auto;
+  }
+
+
+  #flex-container-body-right {
+      /* Burası Gövde kısmının sağ kısmı için  */
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid black;
+      justify-content: space-around;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+  #flex-container-body-left {
+      /* Burası Gövde kısmının sol kısmı için  */
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid black;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+  #flex-container-body-middle {
+      /* Burası Gövde kısmının orta kısmı için  */
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid black;
+      justify-content: start;
+      align-items: center;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+
+  .body-left-frame {
+      /* Burası Gövde kısmının sol kısmındaki kutular için  */
+      text-align: center;
+      border: 2px solid black;
+      width: 150px;
+      height: 50px;
+      border-radius: 15px;
+      padding: 10px;
+      padding-top: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+
+  .body-left-img {
+      /* Burası Gövde kısmının sol kısmındaki fotoğraf için  */
+      width: 50px;
+      height: 50px;
+  }
+
+  .middle-frame {
+      /* Burası Gövde kısmının orta kısmındaki headerın kutusu için */
+      text-align: center;
+      border-bottom: 2px solid black;
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+
+  .limit-div {
+      /* Burası Gövde kısmının orta kısmındaki alt yazılar için  */
+      max-width: 375px;
+      word-wrap: break-word;
+      padding: 9px;
+  }
+
+  .body-img {
+      /* Burası Gövde kısmının orta kısmındaki resim için  */
+      width: 80px;
+      height: 80px;
+      margin-bottom: 80px;
+      margin-right: 50px;
+      margin-left: auto;
+  }
+
+
+  .body-right-img {
+      /* Burası Gövde kısmının sağ kısmındaki ilk kutunun resmi için  */
+      width: auto;
+      height: 60px;
+      background-image: none;
+      border-radius: 100px;
+  }
+
+  .body-right-box {
+      /* Burası Gövde kısmının sağ kısmındaki bütün kutular için  */
+      border: 2px solid black;
+      padding: 10px;
+      background-color: rgb(210, 90, 90);
+      border-radius: 20px;
+      margin: 0;
+  }
+
+  .body-right-box-in-box {
+      /* Burası Gövde kısmının sağ kısmındaki kutuların içindeki yazıları içine alan kutu için  */
+      border: 1px solid black;
+      background-color: rgb(250, 150, 150);
+      border-radius: 10px;
+      padding-top: 10px;
+      text-align: center;
+      margin: 0;
+  }
+
+  .body-right-second-img {
+      /* Burası Gövde kısmının sağ kısmındaki 2.kutunun resmi için  */
+      width: auto;
+      height: 150px;
+      padding-top: 10px;
+      border-radius: 10px;
+  }
+
+  .body-right-third-box {
+      display: flex;
+      /* Burası Gövde kısmının sağ kısmındaki 3.kutunun içindeki kutular için  */
+      align-items: center;
+      justify-content: center;
+      border: 1px solid black;
+      height: 23px;
+      padding-top: 10px;
+      text-align: center;
+      margin-top: 10px;
+      background-color: wheat;
+  }
